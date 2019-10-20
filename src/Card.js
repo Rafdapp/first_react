@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
     return ( <
-        div className = 'bg-light-green dib br3 pa3 ma2 grow' >
+        div className = 'bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5' >
         <
         img alt = "robots"
         src = "https://robohash.org/test?200x200" / >
@@ -10,8 +10,8 @@ const Card = () => {
         div >
         <
         h2 > Jane Doe < /h2> <
-        p > jane.doe @mail.com < /p> <
-        /div> <
+        p > jane.doe @mail.com < /p> < /
+        div > <
         /div>
     );
 };
