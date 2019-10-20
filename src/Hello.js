@@ -8,7 +8,9 @@ class Hello extends Component {
         return ( <
             div class = 'f1 tc' >
             return <h1 > Hello Word < /h1> <
-            p > Welcome to React < /p> < /
+            p > {
+                this.props.greeting
+            } < /p> < /
             div >
         );
     }
